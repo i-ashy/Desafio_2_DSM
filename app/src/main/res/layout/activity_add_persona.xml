@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:paddingTop="24dp"
+    android:padding="16dp"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos de estudiante:"
+        android:textSize="35sp"
+        />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de estudiante"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/txtCarnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carnet"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="22sp"
+        />
+
+
+    <Spinner
+        android:id="@+id/cbAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        />
+
+    <Spinner
+        android:id="@+id/cbEstadoAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        />
+
+    <Spinner
+        android:id="@+id/cbCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        />
+
+    <Spinner
+        android:id="@+id/cbAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/txtNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota final de asignatura"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="22sp"
+        />
+
+    <Spinner
+        android:id="@+id/cbMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Seleccione la matricula"
+
+        />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Guardar"
+        android:onClick="guardar"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cancelar"
+        android:onClick="cancelar"/>
+
+</LinearLayout>

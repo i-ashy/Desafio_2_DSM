@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">D2_ML211022</string>
+
+    //comboboxs
+    <string-array name="array_asignatura">
+        <item>Seleccione la asignatura</item>
+        <item>Cálculo</item>
+        <item>Programación</item>
+        <item>Física</item>
+        <item>Redes</item>
+        <item>Electrónica</item>
+    </string-array>
+
+    <string-array name="array_estado">
+        <item>Estado de asignatura</item>
+        <item>Inscrita</item>
+        <item>Aprobada</item>
+        <item>Reprobada</item>
+    </string-array>
+
+    <string-array name="array_ciclo">
+        <item>Seleccione el ciclo en que se curso</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="array_anio">
+        <item>Seleccione el año en que se curso</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+    <string-array name="array_matricula">
+        <item>Seleccione la cantidad de matriculas</item>
+        <item>Primera</item>
+        <item>Segunda</item>
+        <item>Tercera</item>
+        <item>Cuarta</item>
+    </string-array>
+
+</resources>

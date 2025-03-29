@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:paddingTop="24dp"
+    android:padding="16dp"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvCarnet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carnet: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAsignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asignatura: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvCiclo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ciclo: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAnio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Año: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNotaF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota final: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matricula: "
+        android:textSize="20sp" />
+
+</LinearLayout>
